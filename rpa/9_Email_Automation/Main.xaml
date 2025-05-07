@@ -1,0 +1,213 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Using_Selector" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="Using_Selector_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Using_Selector" sap:VirtualizedContainerService.HintSize="1129,2056" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Sequence sap:VirtualizedContainerService.HintSize="518,2033" sap2010:WorkflowViewState.IdRef="Sequence_2">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <uix:NApplicationCard DisplayName="Browser" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="484,1950" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="Simulate" ScopeGuid="d1d8d833-8186-4d00-9a5d-4798edcc9062">
+        <uix:NApplicationCard.Body>
+          <ActivityAction x:TypeArguments="x:Object">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+            </ActivityAction.Argument>
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,1710" sap2010:WorkflowViewState.IdRef="Sequence_3">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <Delay Duration="00:00:10" sap:VirtualizedContainerService.HintSize="416,122" sap2010:WorkflowViewState.IdRef="Delay_1" />
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Compose'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,225" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d1d8d833-8186-4d00-9a5d-4798edcc9062" Version="V4">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="mail.google.com/mail/u/0" ContentHash="h5tQRccYdUioYpMg_6uscg" DesignTimeRectangle="18, 179, 67, 68" DesignTimeScaleFactor="1.2000000476837158" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Compose' aria-role='button' tag='DIV' type='' class='T-I T-I-KE L3' check:innerText='Compose' /&gt;" Guid="e99b9eac-2fce-4495-8bed-fb616833935a" InformativeScreenshot="6ec4c1afba443b00d64efc3c66a2ff35.png" Reference="CX7vcUtUs0Ok428PqHuGPw/iVtdtqBsi0S_MrS0hLZAOw" ScopeSelectorArgument="&lt;html app='firefox.exe' title='Sent Mail - sugarc2h5@gmail.com - Gmail' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive" />
+                </uix:NClick.Target>
+                <uix:NClick.VerifyOptions>
+                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionOptions.Retry>
+                    <uix:VerifyExecutionOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionOptions.Timeout>
+                  </uix:VerifyExecutionOptions>
+                </uix:NClick.VerifyOptions>
+              </uix:NClick>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'INPUT hz'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,225" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d1d8d833-8186-4d00-9a5d-4798edcc9062" Version="V4">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="mail.google.com/mail/u/0" ContentHash="VODon0fmwEuyMWDzv1FkdA" DesignTimeRectangle="1171, 409, 592, 43" DesignTimeScaleFactor="1.2000000476837158" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl parentid=':c1' tag='TABLE' /&gt;&lt;webctrl id=':hz' type='text' tag='INPUT' class='agP aFw' aaname='' /&gt;" Guid="fada205c-6895-49a0-b568-8516cdbfec4b" InformativeScreenshot="c434ceb51497bfd098c8ece84b541061.png" Reference="CX7vcUtUs0Ok428PqHuGPw/vz54sh1OZ0GntqfWbkG0pg" ScopeSelectorArgument="&lt;html app='firefox.exe' title='Sent Mail - sugarc2h5@gmail.com - Gmail' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive" />
+                </uix:NClick.Target>
+                <uix:NClick.VerifyOptions>
+                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionOptions.Retry>
+                    <uix:VerifyExecutionOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionOptions.Timeout>
+                  </uix:VerifyExecutionOptions>
+                </uix:NClick.VerifyOptions>
+              </uix:NClick>
+              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'INPUT hz'" EmptyFieldMode="None" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,286" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="d1d8d833-8186-4d00-9a5d-4798edcc9062" Text="&lt;EMAIL_HERE&gt;" Version="V4">
+                <uix:NTypeInto.Target>
+                  <uix:TargetAnchorable BrowserURL="mail.google.com/mail/u/0" ContentHash="VODon0fmwEuyMWDzv1FkdA" DesignTimeRectangle="1171, 409, 592, 43" DesignTimeScaleFactor="1.2000000476837158" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl parentid=':c1' tag='TABLE' /&gt;&lt;webctrl id=':hz' type='text' tag='INPUT' class='agP aFw' aaname='' /&gt;" Guid="fada205c-6895-49a0-b568-8516cdbfec4b" InformativeScreenshot="c434ceb51497bfd098c8ece84b541061.png" Reference="CX7vcUtUs0Ok428PqHuGPw/vz54sh1OZ0GntqfWbkG0pg" ScopeSelectorArgument="&lt;html app='firefox.exe' title='Sent Mail - sugarc2h5@gmail.com - Gmail' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive" />
+                </uix:NTypeInto.Target>
+                <uix:NTypeInto.VerifyOptions>
+                  <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionTypeIntoOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                  </uix:VerifyExecutionTypeIntoOptions>
+                </uix:NTypeInto.VerifyOptions>
+              </uix:NTypeInto>
+              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Bcc'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,286" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="d1d8d833-8186-4d00-9a5d-4798edcc9062" Text="Welcome" Version="V4">
+                <uix:NTypeInto.Target>
+                  <uix:TargetAnchorable BrowserURL="mail.google.com/mail/u/0" CVScreenId="05a5781d-28f6-4327-a25c-dba11678d6a9" ContentHash="hgEdss37JU2mdpUoZTyqcQ" CvTextArea="1141, 469, 59, 20" CvTextArgument="Subject" CvType="Text" DesignTimeRectangle="1142, 466, 682, 24" DesignTimeScaleFactor="1.2000000476837158" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id=':dc' tag='TABLE' /&gt;&lt;webctrl id=':e8' type='' tag='INPUT' class='aoT' placeholder='Subject' aaname='' /&gt;" Guid="3141cc02-2d8b-48d2-9a2c-b9a78bab33bb" InformativeScreenshot="8608338cbf9a9ee708ded533e453a3cf.png" Reference="CX7vcUtUs0Ok428PqHuGPw/Bez2IQ0k2EuX6IlE2EMYzA" ScopeSelectorArgument="&lt;html app='firefox.exe' title='Sent Mail - sugarc2h5@gmail.com - Gmail' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target CVScreenId="05a5781d-28f6-4327-a25c-dba11678d6a9" CvTextArea="1789, 422, 30, 15" CvTextArgument="Bcc" CvType="Text" DesignTimeRectangle="1789, 416, 29, 29" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid=':c1' tag='TABLE' /&gt;&lt;webctrl id=':bd' type='' tag='SPAN' class='aB  gQ pB' aaname='Bcc' check:innerText='Bcc' /&gt;" Guid="2c0f1e0c-5304-4ee8-a79e-7ef74e1b08a1" SearchSteps="FuzzySelector, CV" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NTypeInto.Target>
+                <uix:NTypeInto.VerifyOptions>
+                  <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionTypeIntoOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                  </uix:VerifyExecutionTypeIntoOptions>
+                </uix:NTypeInto.VerifyOptions>
+              </uix:NTypeInto>
+              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'DIV fn'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,286" sap2010:WorkflowViewState.IdRef="NTypeInto_3" ScopeIdentifier="d1d8d833-8186-4d00-9a5d-4798edcc9062" Text="Welcome Back" Version="V4">
+                <uix:NTypeInto.Target>
+                  <uix:TargetAnchorable BrowserURL="mail.google.com/mail/u/0" ContentHash="LaET0mgjqkqQGCULd71dkQ" DesignTimeRectangle="1142, 514, 682, 442" DesignTimeScaleFactor="1.2000000476837158" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='undefined' tag='TABLE' /&gt;&lt;webctrl id=':fn' type='' tag='DIV' class='Am aiL Al editable LW-avf tS-tW' aaname='' /&gt;" Guid="2cea3f31-0e2f-47ed-b510-ae283eb45051" InformativeScreenshot="0a08161c932275cbb1024767794007cf.png" Reference="CX7vcUtUs0Ok428PqHuGPw/cgBo6Gw8KE-RyNjVHKi7nA" ScopeSelectorArgument="&lt;html app='firefox.exe' title='Sent Mail - sugarc2h5@gmail.com - Gmail' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive" />
+                </uix:NTypeInto.Target>
+                <uix:NTypeInto.VerifyOptions>
+                  <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionTypeIntoOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                  </uix:VerifyExecutionTypeIntoOptions>
+                </uix:NTypeInto.VerifyOptions>
+              </uix:NTypeInto>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Send'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,218" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d1d8d833-8186-4d00-9a5d-4798edcc9062" Version="V4">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="mail.google.com/mail/u/0" CVScreenId="5b84582a-9722-47ed-a596-e59b5c9c39f1" ContentHash="8JTAz_VWXUa_uMbl14V0dQ" CvElementArea="1139, 979, 132, 48" CvTextArea="1164, 993, 42, 17" CvTextArgument="Send" CvType="Button" DesignTimeRectangle="1142, 980, 86, 44" DesignTimeScaleFactor="1.2000000476837158" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id=':dv' tag='TABLE' /&gt;&lt;webctrl id=':dx' type='' tag='DIV' class='T-I J-J5-Ji aoO v7 T-I-atl L3' aaname='Send' check:innerText='Send' /&gt;" Guid="01398170-893f-4d0a-b46c-df71c5d81628" InformativeScreenshot="42afb4746db4ecf186adb9e109e73b3e.png" Reference="CX7vcUtUs0Ok428PqHuGPw/wIi_mjTAHkOQ3ko1UgJ0YA" ScopeSelectorArgument="&lt;html app='firefox.exe' title='Sent Mail - sugarc2h5@gmail.com - Gmail' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive" />
+                </uix:NClick.Target>
+                <uix:NClick.VerifyOptions>
+                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionOptions.Retry>
+                    <uix:VerifyExecutionOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionOptions.Timeout>
+                  </uix:VerifyExecutionOptions>
+                </uix:NClick.VerifyOptions>
+              </uix:NClick>
+            </Sequence>
+          </ActivityAction>
+        </uix:NApplicationCard.Body>
+        <uix:NApplicationCard.TargetApp>
+          <uix:TargetApp Area="-8, -8, 1936, 1048" BrowserType="Firefox" ContentHash="UG9hcLaqnk2c87p48aLTBA" IconBase64="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" InformativeScreenshot="993488e374e600cc061eb31874f82468.png" Reference="CX7vcUtUs0Ok428PqHuGPw/0J75s_eMI0eeaKQrACCAuw" Selector="&lt;html app='firefox.exe' url='https://mail.google.com' /&gt;" Url="https://mail.google.com" Version="V2" />
+        </uix:NApplicationCard.TargetApp>
+      </uix:NApplicationCard>
+    </Sequence>
+  </Sequence>
+</Activity>
